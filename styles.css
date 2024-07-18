@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    width: 1%;
+    padding-top: 1%; /* This makes the div a square */
+    border: 1px solid black; /* Added a border for better visibility */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Full viewport height */
+}
